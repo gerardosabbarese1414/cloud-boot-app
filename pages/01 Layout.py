@@ -1,7 +1,6 @@
 import streamlit as st
 
-
-print (def) scegli_materiale():
+def scegli_materiale():
     st.subheader("Scegli il materiale del gioiello:")
     materiali = ["Oro", "Argento", "Platino"]
     scelta_materiale = st.selectbox("Seleziona il materiale", materiali)
